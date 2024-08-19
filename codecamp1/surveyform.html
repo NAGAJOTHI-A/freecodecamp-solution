@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="surveyform.css" />
+  </head>
+  <body>
+    <div class="lar">
+    <h1 id="title">Survey Form</h1>
+    <p id="description">
+      Thankyou!! for opening this survey form..Please continue to fill this
+      form..Your feedbacks Value for Us!!
+    </p>
+    <form id="survey-form"  method="post" action='https://register-demo.freecodecamp.org'>
+      <fieldset class="large">
+        <fieldset>
+          <label id="name-label" for="name"
+            >Enter Your Name:<input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Enter your Name here"
+              required
+          /></label>
+          <label id="email-label" for="email"
+            >Enter Your Email Address:<input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter your Email here"
+              required
+          /></label>
+          <label id="number-label" for="number"
+            >Enter Your Age:<input
+              type="number"
+              id="number"
+              name="number"
+              min="20"
+              max="90"
+              placeholder="Enter your Age here"
+          /></label>
+          <label for="dropdown">
+            Which places do you prefer for tourism?
+            <select id="dropdown" name="dropdown">
+              <option value="">Select One Place</option>
+              <option value="1">Madurai</option>
+              <option value="2">Chennai</option>
+              <option value="3">Coimbatore</option>
+              <option value="4">Kodaikanal</option>
+              <option value="5">Ooty</option>
+            </select>
+          </label>
+        </fieldset>
+        <fieldset>
+          <legend>What kind of trip would you like to go?</legend>
+          <label for="solo date"
+            ><input
+              type="radio"
+              name="tour-type"
+              id="solo date"
+              value="Solo date"
+              class="inline"
+            />Solo Date
+          </label>
+          <label for="couple date">
+            <input
+              type="radio"
+              class="inline"
+              name="tour-type"
+              id="couple date"
+              value="Couple date"
+            />
+            Couple Date
+          </label>
+          <label for="family outing">
+            <input
+              type="radio"
+              class="inline"
+              name="tour-type"
+              id="family outing"
+              value="Family outing"
+            />
+            Family Outing
+          </label>
+          <label for="group outing">
+            <input
+              type="radio"
+              class="inline"
+              name="tour-type"
+              id="group outing"
+              value="Group outing"
+            />
+            Group Outing
+          </label>
+        </fieldset>
+        <fieldset>
+          <legend>What to you Explore in this trip?</legend>
+          <lable for="feel1">
+            <input
+              type="checkbox"
+              id="feel1"
+              name="feel1"
+              value="adventure"
+              class="inline"
+            />
+            Adventure </lable
+          ><br />
+          <lable for="feel2">
+            <input
+              type="checkbox"
+              id="feel2"
+              name="feel2"
+              value="nature and wildlife"
+              class="inline"
+            />
+            Nature and Wildlife </lable
+          ><br />
+          <lable for="feel3">
+            <input
+              type="checkbox"
+              id="feel3"
+              name="feel3"
+              value="luxury"
+              class="inline"
+            />
+            Luxury </lable
+          ><br />
+          <lable for="feel4">
+            <input
+              type="checkbox"
+              id="feel4"
+              name="feel4"
+              value="spiritual"
+              class="inline"
+            />
+            Spiritual </lable
+          ><br />
+          <lable for="feel5">
+            <input
+              type="checkbox"
+              id="feel5"
+              name="feel5"
+              value="yoga and wellness"
+              class="inline"
+            />
+            Yoga and Wellness </lable
+          ><br />
+          <lable for="feel6">
+            <input
+              type="checkbox"
+              id="feel6"
+              name="feel6"
+              value="heritage and culture"
+              class="inline"
+            />
+            Heritage and culture </lable
+          ><br />
+        </fieldset>
+        <fieldset>
+          <label for="others"
+            >what are the additional expectations about your trip?
+            <textarea
+              placeholder="type your expectations here"
+              rows="3"
+              cols="30"
+              id="others"
+            ></textarea>
+          </label>
+          <input type="submit" value="Submit" id="submit" />
+        </fieldset>
+      </fieldset>
+    </form>
+  </body>
+</div>>
+</html>
